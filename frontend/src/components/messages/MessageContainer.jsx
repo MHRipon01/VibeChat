@@ -3,7 +3,7 @@ import Messages from "./Messages";
 import MessageInput from "./messageInput";
 
 const MessageContainer = () => {
-  const isChatSelected = true; // Renamed the boolean variable
+  const isChatSelected = false; // Renamed the boolean variable
 
   return (
     <div className="md:min-w-[450px] flex flex-col">

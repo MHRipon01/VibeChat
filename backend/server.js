@@ -25,10 +25,10 @@ app.use("/api/messages", messageRoutes);
 app.use("/api/", messageRequestRoutes);
 app.use("/api/users", userRoutes);
 
-// app.get("/", (req, res) => {
-//   //root route http://localhost:5000/
-//   res.send("Hello chat!");
-// });
+app.get("/", (req, res) => {
+  //root route http://localhost:5000/
+  res.send("Hello chat!");
+});
 
 app.listen(PORT, () => {
   connectToMongoDB();
