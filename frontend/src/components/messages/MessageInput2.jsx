@@ -1,7 +1,7 @@
 import { BsSend } from "react-icons/bs";
 import useSendMessage from "../../hooks/useSendMessage";
 import { useState } from "react";
-const MessageInput = () => {
+const MessageInput2 = () => {
  
 
   const [message, setMessage] = useState("");
@@ -37,4 +37,4 @@ const MessageInput = () => {
     </form>
   );
 };
-export default MessageInput;
+export default MessageInput2;
